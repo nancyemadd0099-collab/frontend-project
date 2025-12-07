@@ -1,0 +1,81 @@
+.nav-section {
+    background-color: #f6f3ee;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 6px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.part-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo p{
+    margin: auto;
+    padding: 0 35px 0 0;
+    font-family: initial;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(51, 43, 36);
+}
+
+.menu button{
+    border: none;
+    margin-right: 35px;
+    background-color: transparent;
+    color: rgb(51, 43, 36);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: serif;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .8s;
+}
+
+.menu button:hover{
+    background-color: #e8dfd0;
+}
+
+.sign-in{
+    font-size: 16px;
+    font-family: revert-layer;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background: #ece6dd;
+    border: none;
+    margin-right: 15px;
+    color: #ef6d98;
+    transition: .3s;
+}
+
+.sign-in:hover{
+background: #dfd8cf;
+}
+
+.get-start{
+    font-size: 16px;
+    font-family: revert-layer;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background: rgb(25, 18, 3);
+    border: none;
+    margin-right: 15px;
+    color: #f6f3ee;
+    transition: .3s;
+}
+
+.get-start:hover{
+    background: rgba(25, 18, 3, 0.897);
+}
+
