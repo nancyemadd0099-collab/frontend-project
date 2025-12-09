@@ -21,7 +21,7 @@ function Hero() {
             <section className="hero-section">
                 <div className="hero-content" ref={contentRef}>
                     <h2>Plan, Style, Celebrate, With <span>Wedora ♡</span></h2>
-                    <p>From dresses to decor, we cover all your wedding needs</p>
+                    <p>From dresses to decor, we cover all your wedding needs.</p>
                     <button>Explore Services</button>
                 </div>
             </section>
